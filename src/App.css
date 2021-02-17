@@ -4,13 +4,33 @@
 
 .App input {
   margin-top: 20px;
-  padding: 1px 15px;
-  height: 30px;
+  margin-bottom: 10px;
+  padding: 10px 25px;
   user-select: none;
   border-radius: 20px;
+  border: 0.1rem solid black;
   outline: none;
 }
 
+.App input[type="text"] {
+  transition: transform 500ms ease;
+}
+.App input[type="text"]:focus {
+  transform: translateX(5%);
+}
+.name {
+  cursor: pointer;
+  transition: transform 500ms ease;
+  user-select: none;
+}
+
+.name:hover {
+  transform: scale(1.1);
+  color: pink;
+  font-size: 1.5rem;
+}
+
 p {
-  margin: ;
+  margin: 0;
+  padding: 0.8rem;
 }

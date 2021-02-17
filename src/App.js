@@ -8,8 +8,7 @@ function App() {
   return (
     <div className="App">
       <div className="InputBox">
-        <input type="text" placeholder="Search. . ." onChange={event => { setSearchword(event.target.value) }} />
-        {console.log(searchword)}
+        <input type="text" placeholder="🔍 Search. . ." onChange={event => { setSearchword(event.target.value) }} />
 
       </div>
       {JSONDATA.filter((val) => {
@@ -20,7 +19,7 @@ function App() {
       }).map((data, key) => {
         return (
           <div key={key}>
-            <p>{data.first_name}</p></div>
+            <p className="name">{data.first_name}</p></div>
         )
       })}
     </div>
