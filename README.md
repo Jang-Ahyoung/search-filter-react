@@ -6,6 +6,11 @@
 
 > React와 random 데이터를 활용한 간단한 Search Filter <br /> 
 
+## 🎅 developer
+
+ - [장아영](https://github.com/Jang-Ahyoung)<br />  <br /> 
+
+
 
 ## 🏍 Demo 
 > - Mockaroo 데이터를 활용해 검색 필터 기능 구현  <br /> 
